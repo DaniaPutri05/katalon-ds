@@ -35,7 +35,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Swag Labs/Dashboard/label_product'))
 
-WebUI.delay(10)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Swag Labs/detail_product/back_product'), 5)
 
 WebUI.closeBrowser()
 

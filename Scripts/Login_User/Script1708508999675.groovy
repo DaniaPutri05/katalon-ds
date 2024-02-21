@@ -31,6 +31,7 @@ WebUI.setText(findTestObject('Object Repository/Swag Labs/Login Page/field_passw
 
 WebUI.click(findTestObject('Object Repository/Swag Labs/Login Page/button_login'))
 
-WebUI.delay(5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Swag Labs/Dashboard/button_add_to_cart'), 5)
+
 
 WebUI.closeBrowser()

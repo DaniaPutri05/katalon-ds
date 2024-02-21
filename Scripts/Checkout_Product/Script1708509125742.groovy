@@ -37,6 +37,7 @@ WebUI.click(findTestObject('Object Repository/Swag Labs/Page_Confirmation/button
 
 WebUI.click(findTestObject('Object Repository/Swag Labs/Page_Confirmation/button_Checkout'))
 
-WebUI.delay(5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Swag Labs/Laman_Confirmation/Laman_Checkout'), 5)
+
 
 WebUI.closeBrowser()
